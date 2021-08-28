@@ -21,13 +21,14 @@ let chartWidth =
       align: screenLeft,
     },
     subtitle: {
-      text: 'Více než polovinu respondentů zajímají informace o konkrétních zdravotních zdravotních potížích',
+      text: 'Koronavirus, ted zajímá necelé dvě třetiny respondentů. Více než polovina hledá informace o konkrétních zdravotních potížích',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
       align: screenLeft,
     },
     xAxis: {
-      categories: ['konkrétní potíže',
+      categories: ['covid-19',
+    'konkrétní potíže',
       'očkování, vakcíny',
       'konkrétní léčiva',
       'životní styl',
@@ -41,7 +42,7 @@ let chartWidth =
     },
     yAxis: {
       title: {
-        text: 'procent respondentů souhlasí',
+        text: 'procent dotázaných na internetu vyhledává informace o',
       },
       // labels: {
       //   formatter: function() {
@@ -81,7 +82,8 @@ let chartWidth =
     series: [
       {
         name: 'procent dotázaných na internetu vyhledává informace o',
-        data: [{ y: 52, color: colors['2020'] },
+        data: [{ y: 62, color: colors['2020'] },
+            { y: 52, color: colors['2020'] },
           { y: 41, color: colors['2020'] },
           { y: 40, color: colors['2020'] },
           { y: 32, color: colors['2020'] },
