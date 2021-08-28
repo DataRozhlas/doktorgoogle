@@ -16,31 +16,31 @@ let chartWidth =
   
     },
     title: {
-      text: 'Nejčastější komplikace půl roku po covidu',
+      text: 'Lidé ve spojitosti se zdravím na internetu nejčastěji hledají',
       useHTML: true,
       align: screenLeft,
     },
     subtitle: {
-      text: 'Mezi 1733 sledovanými pacienty po hospitalizaci',
+      text: 'Více než polovina respondentů hledá na internetu informace o zdravotních potížích, 2/5 informace o očkování nebo informace o konkrétních léčivých přípravcích.',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
       align: screenLeft,
     },
     xAxis: {
-      categories: ['alespoň jeden z příznaků',
-      'únava, bolest svalů',
-      'problémy se spánkem',
-      'ztráta vlasů',
-      'ztráta čichu',
-      'tlukot/bušení srdce',
-      'bolest kloubů'],
+      categories: ['konkrétní potíže',
+      'očkování, vakcíny',
+      'konkrétní léčiva',
+      'životní styl',
+      'vlastní diagnoza',
+      'psychické potíže',
+      'hodnocení lékařů'],
       labels: {
         enabled: true,
       },
     },
     yAxis: {
       title: {
-        text: 'procent pacientů souhlasí',
+        text: 'procent respondentů souhlasí',
       },
       // labels: {
       //   formatter: function() {
@@ -65,8 +65,8 @@ let chartWidth =
       enabled: false,
     },
     credits: {
-      href: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-67362032656-8/fulltext',
-      text: 'The Lancet: 6-month consequences of COVID-19 in patients discharged from hospital: a cohort study',
+      href: '',
+      text: 'Postoj Čechů k telemedicíně – data z průzkumu týkající se samodiagnostiky, Ipsos Healthcare',
     },
     plotOptions: {
       column: {
@@ -80,13 +80,13 @@ let chartWidth =
     series: [
       {
         name: 'procent pacientů souhlasí',
-        data: [{ y: 76, color: colors['2020'] },
-          { y: 63, color: colors['2020'] },
-          { y: 26, color: colors['2020'] },
-          { y: 22, color: colors['2020'] },
-          { y: 11, color: colors['2020'] },
-          { y: 9, color: colors['2019'] },
-          { y: 9, color: colors['2020'] }],
+        data: [{ y: 52, color: colors['2020'] },
+          { y: 41, color: colors['2020'] },
+          { y: 40, color: colors['2020'] },
+          { y: 32, color: colors['2020'] },
+          { y: 18, color: colors['2020'] },
+          { y: 17, color: colors['2019'] },
+          { y: 17, color: colors['2020'] }],
       },
     ],
   });
