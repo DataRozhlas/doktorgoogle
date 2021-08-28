@@ -31,7 +31,7 @@ let chartWidth =
       'očkování, vakcíny',
       'konkrétní léčiva',
       'životní styl',
-      'vlastní diagnoza',
+      'vlastní diagnóza',
       'psychické potíže',
       'hodnocení lékařů a zdravotních zaříženích',
       'tipy na prevenci'],
