@@ -1,10 +1,10 @@
 let chartWidth =
- document.getElementById("graf3").offsetWidth > 600
+ document.getElementById("graf").offsetWidth > 600
    ? 600
-   : document.getElementById("graf3").offsetWidth;
+   : document.getElementById("graf").offsetWidth;
  
   
-  Highcharts.chart('graf3', {
+  Highcharts.chart('graf', {
     chart: {
       type: 'bar',
       //width: chartWidthNehody,
