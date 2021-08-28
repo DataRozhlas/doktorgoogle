@@ -21,7 +21,7 @@ let chartWidth =
       align: screenLeft,
     },
     subtitle: {
-      text: 'Více než polovina respondentů hledá na internetu informace o zdravotních potížích, 2/5 informace o očkování nebo informace o konkrétních léčivých přípravcích.',
+      text: 'Více než polovinu respondentů zajímají informace o konkrétních zdravotních zdravotních potížích',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
       align: screenLeft,
@@ -33,7 +33,8 @@ let chartWidth =
       'životní styl',
       'vlastní diagnoza',
       'psychické potíže',
-      'hodnocení lékařů'],
+      'hodnocení lékařů a zdravotních zaříženích',
+      'tipy na prevenci'],
       labels: {
         enabled: true,
       },
@@ -86,7 +87,9 @@ let chartWidth =
           { y: 32, color: colors['2020'] },
           { y: 18, color: colors['2020'] },
           { y: 17, color: colors['2019'] },
-          { y: 17, color: colors['2020'] }],
+          { y: 17, color: colors['2020'] },
+          { y: 13, color: colors['2020'] }
+        ],
       },
     ],
   });
