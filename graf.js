@@ -80,7 +80,7 @@ let chartWidth =
     },
     series: [
       {
-        name: 'procent pacientů souhlasí',
+        name: 'procent dotázaných na internetu vyhledává informace o',
         data: [{ y: 52, color: colors['2020'] },
           { y: 41, color: colors['2020'] },
           { y: 40, color: colors['2020'] },
