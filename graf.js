@@ -42,7 +42,7 @@ let chartWidth =
     },
     yAxis: {
       title: {
-        text: 'procent dotázaných na internetu vyhledává informace o',
+        text: '',
       },
       // labels: {
       //   formatter: function() {
@@ -68,7 +68,7 @@ let chartWidth =
     },
     credits: {
       href: '',
-      text: 'Postoj Čechů k telemedicíně – data z průzkumu týkající se samodiagnostiky, Ipsos Healthcare',
+      text: 'Postoj Čechů k telemedicíně – data z průzkumu Ipsos Healthcare',
     },
     plotOptions: {
       column: {
