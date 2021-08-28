@@ -21,7 +21,7 @@ let chartWidth =
       align: screenLeft,
     },
     subtitle: {
-      text: 'Koronavirus, ted zajímá necelé dvě třetiny respondentů. Více než polovina hledá informace o konkrétních zdravotních potížích',
+      text: 'Koronavirus, ten zajímá necelé dvě třetiny respondentů. Více než polovina hledá informace o konkrétních zdravotních potížích',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
       align: screenLeft,
